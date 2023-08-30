@@ -1,6 +1,7 @@
 # This is applicable only when the array is sorted  in increasing or non-increasing order 
 # Here we find the mid element first and start comparing the mind element with the target value and search for right or left from the mid element 
 # Once we choose the side to search we use a Recursive call to search for the element 
+Time Complexity = O(logn)
 
 # define function
 
