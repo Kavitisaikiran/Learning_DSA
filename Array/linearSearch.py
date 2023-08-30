@@ -1,7 +1,6 @@
-Here we search for a value by iterating the array  
-Time Complexity is O(n)
+# Here we search for a value by iterating the array  
+# Time Complexity is O(n)
 
-General example:
 
 #function definition
 def linear_Search(arr):
@@ -12,7 +11,6 @@ def linear_Search(arr):
         return -1
 
 # calling function
-
 linear_Search(arr)
 arr = []
 value = user_input_number
