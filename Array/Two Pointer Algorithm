@@ -1,0 +1,20 @@
+When we have a sorted array to find the target value sum and index of those values we use this approach 
+
+arr = [10,20,30,90,190]
+Q: Find the indexes of values whose sum is 50
+
+We initialize two pointers  left and right 
+so 
+l = 0
+r = 0
+while l<r:
+if arr[i] + arr[r]:
+  return (l,r)
+elif arr[i] + arr[r] > target_sum:
+  r = r-1
+# here we are decreasing the right counter because the sum value is more so we need to move our search space to left 
+else:
+  l = l+1
+# it covers the reverse approach of the elif loop
+
+ans: (1,2)
