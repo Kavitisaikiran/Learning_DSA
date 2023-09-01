@@ -1,6 +1,7 @@
 # to apply Binary Search on 2-D arrays
 # Rules:- 1. Integers in each row are sorted from left to right 
 #         2. First integer of each row  > last integer of the previous row 
+# Time Complexity : O(n*m)
 
 arr = [[1,2,3],[4,5,6],[7,8,9]]
 Code:
