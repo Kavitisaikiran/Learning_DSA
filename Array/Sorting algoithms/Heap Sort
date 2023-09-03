@@ -1,0 +1,29 @@
+Heap Data structure comes into play , general tree structure especially : Complete Binary Tree
+for a tree should be complete binary it can be either full binary tree or almost complete binary tree
+for a tree to be Binary tree it should have the no of nods in (0,1,2)
+Full Binary Tree:
+                All nodes should be filled 
+Almost complate Binary Tree:
+                1.) Insertion of nodes should be from left to right 
+                2.) All the parent nodes are filled first and then the children nodes  are filled 
+Complete Binary Tree is super set of above trees
+
+Here we genrally study two important concepts such as Min Heap and Max Heap 
+
+Min Heap: it says parent node value is always less than the child node value 
+Max Heap: Parent node value should be always greater than the child node value 
+
+Insertion of element in Heap(min//max):
+
+we generally visualize heap as array virtually 
+Indexing of the values :
+      1.)The parent node is always 0 by default (i)
+      2.) for assaigning the left side element = 2(i) + 1  ::: where i is the index of its parent node 
+      3.) for assigning the right side element = 2(i) - 1 
+as  these Heap  structures as CBT (complete Bianry Tree)
+number of nodes = 2^h - 1 ( h = heigth of the Tree)
+number of leaf nodes = upper bound of [n/2]
+height of the tree = log(n+1)
+Time complexity here is O(log(n))
+
+
