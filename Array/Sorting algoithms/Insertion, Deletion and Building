@@ -1,4 +1,0 @@
-In general we take a min heap and to insert always the element is always inserted at the first leaf node 
-by inserting it may defy the properties of min Heap so we do follow 
-1.) check the element with its parent node if it is greater  than the parent node swap it 
-

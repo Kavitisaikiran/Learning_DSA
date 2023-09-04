@@ -1,0 +1,5 @@
+Deletion of Min Heap:
+
+Note: The root node element is always deleted first and the last leaf node element  is placed at the root node
+So by this,  it defies the min heap condition 
+It is checked with its children nodes and replaced by min value in this way the swapping does 
