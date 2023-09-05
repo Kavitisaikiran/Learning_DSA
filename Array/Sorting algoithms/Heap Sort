@@ -1,6 +1,9 @@
 Heap Data structure comes into play , general tree structure especially : Complete Binary Tree
 for a tree should be complete binary it can be either full binary tree or almost complete binary tree
 for a tree to be Binary tree it should have the no of nods in (0,1,2)
+
+heapq is the package used to import the heap sort package and by default it gets minHeap
+
 Full Binary Tree:
                 All nodes should be filled 
 Almost complate Binary Tree:
