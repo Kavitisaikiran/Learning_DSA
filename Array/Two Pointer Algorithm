@@ -8,9 +8,9 @@ so
 l = 0
 r = 0
 while l<r:
-if arr[i] + arr[r]:
+if arr[l] + arr[r]:
   return (l,r)
-elif arr[i] + arr[r] > target_sum:
+elif arr[l] + arr[r] > target_sum:
   r = r-1
 # here we are decreasing the right counter because the sum value is more so we need to move our search space to left 
 else:
