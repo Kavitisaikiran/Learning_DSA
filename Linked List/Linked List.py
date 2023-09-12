@@ -1,4 +1,4 @@
-first we create a class
+First we create a class
 class Node:
     def __init__(self, data):
         self.data = data
